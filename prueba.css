@@ -1,0 +1,189 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #FBFBFB;
+}
+.container{
+
+    padding: 15px 0px;
+    max-width: 1000px;
+    min-width: 1000px;
+    width: 80%;
+    margin: auto;
+ 
+}
+
+.container .section_titulo{  
+    text-align: center; 
+}
+.container .section_titulo h2{
+    font-size: 25px;
+}
+.container .section_titulo > p{
+    padding: 20px 0px 30px 0px;
+    font-size: 11px;
+}
+.container .section_titulo .botones{
+    display: flex;
+    width: 30%;
+    margin: auto;
+    justify-content: space-between;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 3px 3px;
+}
+.container .section_titulo .botones > p{
+    width: calc(100%/2);
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 8px 0px;
+}
+.container .section_titulo .botones .blue{
+    background-color: #4B78D3;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+.container .section_promociones{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .section_promociones > div{
+    width: calc(100%/3);
+    margin: 0px 20px;
+    text-align: center;
+    padding: 20px 10px 0px 10px;
+    border-radius: 15px;
+    background-color: #FFF;
+    box-shadow: 5px 5px 5px 5px #FBFBFB;
+}
+.container .section_promociones > div h3
+{
+    font-size: 20px;
+}
+.container .section_promociones > div > p
+{
+    font-size: 10px;
+    padding: 20px 0px;
+    font-weight: normal;
+}
+.container .section_promociones > div .precio
+{
+    width: 100px;
+    font-weight: bold;
+    margin: auto;
+    position: relative;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.container 
+.section_promociones > div .precio .dolar
+{
+    position: absolute;
+    top:0%;
+    left: 20px;
+    font-size: 12px;
+}
+.container 
+.section_promociones > div .opciones{
+    text-align: left;
+    margin-bottom: 10px;
+    list-style: none;
+    background-color: #FBFBFB;
+    padding: 20px 20px 20px 20px;
+    border-radius: 15px;
+}
+.container 
+.section_promociones > div .opciones li{
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+.container 
+.section_promociones > div .opciones span{
+    padding-right: 10px;
+    font-size: 20px;
+}
+.container 
+.section_promociones > div .input{
+    width: 70%;
+    margin: 20px auto 0px auto;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+.container 
+.section_promociones > div .input > p{
+    padding: 10px 0px;
+    text-align: center;
+    color: #4B78D3;
+    font-size: 12PX;
+}
+
+
+
+
+
+
+.container 
+.section_promociones .nav_pro{
+    background-color: #4B78D3;
+}
+
+.container 
+.section_promociones .nav_pro .boton_pro{
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    background-color: #D5C8DE;
+}
+.container 
+.section_promociones .nav_pro .boton_pro > p{
+    font-size: 12px;
+    padding: 5px;
+    color: #FFF;
+}
+.container 
+.section_promociones .nav_pro > h3{
+    color: #FFF;
+}
+.container 
+.section_promociones .nav_pro > p{
+    color: #FFF;
+}
+.container 
+.section_promociones .nav_pro > .precio{
+    color: #FFF;
+}
+.container 
+.section_promociones > .nav_pro .opciones span{
+    color: #4B78D3;
+}
+.container 
+.section_promociones > .nav_pro .input{
+   
+    background-color: #4B78D3;
+}
+.container 
+.section_promociones > .nav_pro .input p{
+   
+    color: #FFF;
+}
